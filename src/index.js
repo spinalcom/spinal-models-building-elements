@@ -3,8 +3,8 @@ const globalType = typeof window === "undefined" ? global : window;
 
 
 
-import AbstractElement from './src/AbstractElement';
-import BIMElement from './src/BIMElement';
+import AbstractElement from './AbstractElement';
+import BIMElement from './BIMElement';
 
 export {
   AbstractElement,
