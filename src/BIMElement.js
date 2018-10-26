@@ -4,7 +4,7 @@ const BIMForge = require("spinal-models-bim_forge");
 
 import {
   Utilities
-} from "../Utilities.js"
+} from "./Utilities"
 
 export default class BIMElement extends BIMForge.SpinalBIMObjectForge {
   constructor(_id, _name, _type, name = "BIMElement") {
